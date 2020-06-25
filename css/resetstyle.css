@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../img/skill-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    margin: 17% auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #000;
+    height: 300px;
+}
+.row {
+  padding: 20px;  
+}
+
+.row h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
+    margin: 20px 0;
+}
+.text p {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.row input {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    
+    border: 1px solid #d1cece;
+}
+.btn {
+    
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: orange;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 34%;
+    margin-bottom: 20px;
+}
+.btn:hover {
+    background: #eb7007;
+    cursor: pointer;
+}
+.sig-log {
+    
+}
+.login {
+    float: left;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid orange;
+    padding: 2px 10px;
+    border-radius: 30px;
+  
+    color: #777;
+}
+.signup {
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    border: 1px solid orange;
+    padding: 2px 10px;
+    border-radius: 30px;
+    
+    color: #777;
+}
+.login:hover{
+    background: orange;
+    color: #fff;
+}
+.signup:hover{
+    background: orange;
+    color: #fff;
+}
